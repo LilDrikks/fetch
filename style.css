@@ -1,0 +1,120 @@
+body {
+    font-family: 'Kanit';
+    background-color: rgb(211, 211, 211);
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient( #0FFFCB, #36695E);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    position: relative;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-left: 3px solid;
+}
+
+.menu {
+    position: absolute;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.title {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 400px;
+    position: relative;
+    background-color: #4A6B64;
+}
+
+.imgGame {
+    width: 0;
+    height: 0;
+}
+
+#linkGame {
+    display: flex;
+    text-decoration: none;
+    width: 420px;
+    height: 50px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #36695E;
+    color: white;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+#linkGame:hover {
+    color: #36695E;
+    background-color: white;
+}
+
+#nameH1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    background-color: black;
+    margin-bottom: -0px;
+    width: 420px;
+    height: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Btns {
+    text-align: center;
+    width: 210px;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+    color: #36695E;
+    border: 1px solid rgb(114, 114, 114);
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.Btns:hover {
+    background-color: #36695E;
+    color: white;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: rgb(16, 199, 223);
+    border: 1px solid #0FFFCB;
+}
+
+.descH1 {
+    margin-top: 30px;
+}
+
+#description {
+    display: inline-block;
+    width: 90%;
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+    padding: 20px;
+    overflow-y: scroll;
+    height: 350px;
+}
