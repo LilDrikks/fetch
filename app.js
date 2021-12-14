@@ -103,7 +103,10 @@ function fetch3() {
 }
 fetch3()
 
+setTimeout(() => {
+    render1()
 
+}, 1100);
 
 function render1() {
     promiseFinal = [...promise1, ...promise2, ...promise3]
